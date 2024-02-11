@@ -33,3 +33,5 @@ day_of_week = dt.datetime.now().weekday()
 
 if day_of_week == 0:
     m.send_mail()
+else:
+    print('It is not Monday!')
